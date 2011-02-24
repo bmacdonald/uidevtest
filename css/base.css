@@ -1,0 +1,147 @@
+body{
+	font-family:Arial,"MS Trebuchet",sans-serif;
+	background: #ffffff url(../images/grad_bg.jpg) repeat-x;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+h1,h2,h3,h4{
+	padding:0px;
+	margin:0px;
+}
+#content{
+	width:660px;
+	background-color:#ffffff;
+	margin:0px auto;
+}
+.contentGutter{
+	padding:20px;
+}
+.crossBrowserClearBoth, .crossBrowserLeft{
+	line-height:0px;
+	font-size:0px;
+	height:0px;				
+}
+.crossBrowserClearBoth{
+	clear:both;
+}
+.crossBrowserLeft{
+	clear:left;
+}
+#leftCol{
+	width:170px;
+	float:left;
+}
+#rightCol{
+	width:435px;
+	float:right;
+}
+/** orange **/
+.breadcrumbs a, .bylineContainer a, #mediaEnlarge{
+	color:#CC6600;
+}
+/** Breadcrumbs **/
+.breadcrumbs a{
+	font-size:12px;
+	font-weight:bold;
+}
+.breadcrumbs{
+	margin-bottom:10px;
+}
+/** Article Byline **/
+.bylineContainer a{
+	font-weight:bold;
+}
+.bylineContainer h3{
+	margin-bottom:10px;
+}
+.bylineContainer h2,.bylineContainer h3,
+.bylineContainer h4{
+	font-size:12px;
+	font-weight:normal;
+}
+.bylineContainer{
+	margin-bottom:5px;
+}
+/** Article Toolbar **/
+.articleToolBar a{
+	font-size:12px;
+	padding-right:10px;
+	padding-left:18px;
+	background-image: url('../images/sprites.gif');
+	background-repeat:no-repeat;	
+}
+.articleToolBar ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.articleToolBar ul li{
+	float:left;
+	border-left:solid 1px #000000;
+	line-height:12px;
+	padding-left:7px;
+}
+.articleToolBar ul li.noBorder{
+	border-left:none;
+	padding-left:0px;
+}
+.articleToolBar a.comment{
+	background-position: 0px -479px;
+}
+.articleToolBar a.email{
+	background-position: 0px -253px;
+}
+.articleToolBar a.print{
+	background-position: 0px -300px;
+}
+.articleToolBar a.share{
+	background-position: 0px -344px;
+}
+.articleToolBar a.plus{
+	background-position: 0px -388px;
+}
+.articleToolBar a.minus{
+	background-position: 0px -433px;
+}
+/** Headline **/
+.headline h1{
+	font-size:18px;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	margin-bottom:10px;
+}
+/** Story Body **/
+.storyBodySmaller, .storyBodySmaller p{
+	font-size:14px;
+}
+.storyBodyLarger, .storyBodyLarger p{
+	font-size:16px;
+}
+/** Media Container **/
+.mediaContent{
+	margin-bottom:5px;
+}
+.mediaByline,.mediaCutline,#mediaEnlarge{
+	font-size:12px;
+}
+.mediaByline{
+	text-align:right;
+	word-wrap:break-word;
+	color:#666666;
+	margin-bottom:5px;
+}
+.mediaEnlargeContainer{
+	margin-bottom:5px;
+}
+#mediaEnlarge{
+	padding-left:20px;
+	background-position:0px -434px;
+	background-image: url('../images/sprites.gif');
+	background-repeat:no-repeat;
+}
+body,.articleToolBar a{
+	color:#202020;
+}
